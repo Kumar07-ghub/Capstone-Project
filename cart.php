@@ -72,7 +72,7 @@ $total = 0;
                                 <td>
                                     <form method="POST">
                                         <input type="hidden" name="remove_product" value="' . $id . '">
-                                        <button type="submit" class="btn btn-sm btn-light-green">Remove</button>
+                                        <button type="submit" class="btn btn-sm btn-danger">Remove</button>
                                     </form>
                                 </td>
                             </tr>';
@@ -84,6 +84,36 @@ $total = 0;
             </tbody>
         </table>
     </div>
+
+    <?php if (count($cart_items) > 0): ?>
+        <div class="text-end mt-4">
+            <a href="checkout.php" class="btn checkout-btn">
+                <i class="bi bi-bag-check-fill me-2"></i> Checkout Securely
+            </a>
+        </div>
+    <?php endif; ?>
 </div>
+
+<!-- Unique Checkout Button Styles -->
+<style>
+.checkout-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, #28a745, #218838);
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.checkout-btn:hover {
+    background: linear-gradient(to right, #218838, #1e7e34);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(33, 136, 56, 0.4);
+}
+</style>
 
 <?php include 'includes/footer.php'; ?>
