@@ -33,6 +33,25 @@
   </div>
 </div>
 
+<!-- Sales Advertisement Modal -->
+<div class="modal fade" id="salesModal" tabindex="-1" aria-labelledby="salesModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border-danger shadow-lg">
+      <div class="modal-header bg-danger text-white">
+        <h5 class="modal-title" id="salesModalLabel">🔥 Special Sale!</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="img/sale-banner.jpg" alt="Sale" class="img-fluid mb-3 rounded-3">
+        <p class="fw-bold text-danger fs-5">Get 20% OFF on all fresh fruits this weekend only!</p>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <a href="products.php" class="btn btn-danger">Shop Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Categories -->
 <div class="container">
   <h2 class="mt-5 mb-4 text-center">Shop by Category</h2>
@@ -106,7 +125,7 @@
       <img src="img/brand-amul.jpg" class="img-fluid" alt="Amul">
     </div>
     <div class="col-6 col-md-3">
-      <img src="img/brand-haldiram.png" class="img-fluid" alt="Haldiram's">
+      <img src="img/brand-haldiram.webp" class="img-fluid" alt="Haldiram's">
     </div>
     <div class="col-6 col-md-3">
       <img src="img/brand-mtr.png" class="img-fluid" alt="MTR">
@@ -143,7 +162,7 @@
     </div>
     <div class="col-12 col-md-4">
       <div class="card shadow text-center border-0 p-3">
-        <img src="img/customer2.jpg" class="rounded-circle mx-auto mb-3 img-fluid" style="width: 100px; height: 100px; object-fit: cover;">
+        <img src="img/customer3.jpg" class="rounded-circle mx-auto mb-3 img-fluid" style="width: 100px; height: 100px; object-fit: cover;">
         <div class="card-body">
           <p class="card-text">"Always on-time delivery. My go-to store now!"</p>
           <h6 class="fw-bold mb-0">Ravi</h6>
