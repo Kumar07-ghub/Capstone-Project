@@ -11,7 +11,7 @@ $cart_count = isset($_SESSION['cart']) ? count($_SESSION['cart']) : 0;
     <meta charset="UTF-8">
     <title>The Indian Supermarket</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta name="description" content="<?= htmlspecialchars($meta_description ?? 'Shop fresh groceries online including fruits, vegetables, and dairy delivered to your door.') ?>">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -27,7 +27,7 @@ $cart_count = isset($_SESSION['cart']) ? count($_SESSION['cart']) : 0;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
         .navbar-brand img {
-            height: 82px;
+            height: 42px;
             margin-right: 10px;
         }
         .navbar-brand span {
@@ -87,9 +87,21 @@ $cart_count = isset($_SESSION['cart']) ? count($_SESSION['cart']) : 0;
                 <li class="nav-item">
                     <a class="nav-link" href="products.php"><i class="bi bi-basket me-1"></i>Products</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.php"><i class="bi bi-box-arrow-in-right me-1"></i>Login</a>
-                </li>
+               <?php if (isset($_SESSION['user'])): ?>
+    <!-- If user is logged in -->
+    <li class="nav-item">
+        <a class="nav-link" href="user_profile.php"><i class="bi bi-person-circle me-1"></i><?= htmlspecialchars($_SESSION['user']['name']) ?></a>
+    </li>
+    <li class="nav-item">
+        <a href="logout.php" class="btn btn-outline-danger ms-lg-2">🚪 Logout</a>
+    </li>
+<?php else: ?>
+    <!-- If user is not logged in -->
+    <li class="nav-item">
+        <a class="nav-link" href="login.php"><i class="bi bi-box-arrow-in-right me-1"></i>Login</a>
+    </li>
+<?php endif; ?>
+
                 <li class="nav-item">
                     <a class="nav-link" href="user_profile.php"><i class="bi bi-person-circle me-1"></i>Profile</a>
                 </li>
