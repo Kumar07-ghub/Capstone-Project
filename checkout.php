@@ -1,100 +1,120 @@
 <?php
-session_start();
+session_start();  // Ensure this is at the top of the file, before any HTML output
+
+require 'vendor/autoload.php';
+include 'includes/db.php';
+include 'functions.php';
 
 if (!isset($_SESSION['user'])) {
     $_SESSION['redirect_after_login'] = 'checkout.php';
-    header("Location: login.php?message=login_required");
+    header("Location: login.php?message=login_required"); // This is fine because it's at the top
     exit;
 }
-
-include 'includes/db.php';
-include 'includes/header.php';
-
-$errors = [];
-$field_errors = [];
 
 if (!isset($_SESSION['cart']) || count($_SESSION['cart']) === 0) {
-    echo '<div class="container mt-5 text-center"><h4>Your cart is empty.</h4><a href="products.php" class="btn btn-success mt-3">Go Shopping</a></div>';
-    include 'includes/footer.php';
+    header("Location: products.php"); // Same here
     exit;
 }
 
+// Include Stripe
+\Stripe\Stripe::setApiKey('sk_test_51RgnJ8IK8JHviDvgBnLPmht2A1d8seVxkFz4nVoOkydrNa1XsclDADHztPImDtt5OvOOgbpIxkjblud8Su9pNYvQ00GsKeDCKm');
+
+
+// Handle the form submission
+$errors = $field_errors = [];
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $required_fields = ['full_name', 'email', 'phone', 'address', 'city', 'province', 'postal_code', 'country', 'payment_method'];
-    foreach ($required_fields as $field) {
-        if (empty($_POST[$field])) {
-            $field_errors[$field] = ucfirst(str_replace('_', ' ', $field)) . " is required.";
-        }
+    $required_fields = ['full_name','email','phone','address','city','province','postal_code','country','payment_method'];
+    foreach ($required_fields as $f) {
+        if (empty($_POST[$f])) $field_errors[$f] = ucfirst(str_replace('_',' ',$f)) . " is required.";
     }
-
-    if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-        $field_errors['email'] = "Invalid email address.";
-    }
-
-    if (!preg_match("/^\d{10,15}$/", preg_replace("/\D/", "", $_POST['phone']))) {
-        $field_errors['phone'] = "Invalid phone number.";
-    }
+    if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) $field_errors['email'] = "Invalid email.";
+    if (!preg_match("/^\d{10,15}$/", preg_replace("/\D/", "", $_POST['phone']))) $field_errors['phone'] = "Invalid phone.";
 
     if (empty($field_errors)) {
-        $name = htmlspecialchars(trim($_POST['full_name']));
-        $email = htmlspecialchars(trim($_POST['email']));
-        $phone = htmlspecialchars(trim($_POST['phone']));
-        $address = htmlspecialchars(trim($_POST['address']));
-        $city = htmlspecialchars(trim($_POST['city']));
-        $province = htmlspecialchars(trim($_POST['province']));
-        $postal_code = htmlspecialchars(trim($_POST['postal_code']));
-        $country = htmlspecialchars(trim($_POST['country']));
-        $instructions = htmlspecialchars(trim($_POST['instructions']));
-        $payment_method = htmlspecialchars(trim($_POST['payment_method']));
-        $user_id = $_SESSION['user']['id'] ?? null;
-
+        extract(array_map('htmlspecialchars', $_POST), EXTR_OVERWRITE);
+        $user_id = $_SESSION['user']['id'];
         $total = 0;
-        foreach ($_SESSION['cart'] as $productId => $qty) {
-            $stmt = $conn->prepare("SELECT price FROM products WHERE id = ?");
-            $stmt->bind_param("i", $productId);
-            $stmt->execute();
-            $result = $stmt->get_result();
-            if ($row = $result->fetch_assoc()) {
-                $total += $row['price'] * $qty;
-            }
-        }
-        $tax = $total * 0.13;
-        $grand_total = $total + $tax;
+        $line_items = [];
 
-        $stmt = $conn->prepare("INSERT INTO orders (user_id, name, email, phone, address, city, province, postal_code, country, instructions, payment_method, total)
-                                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
-        $stmt->bind_param("issssssssssd", $user_id, $name, $email, $phone, $address, $city, $province, $postal_code, $country, $instructions, $payment_method, $grand_total);
+        // Calculate cart total and prepare Stripe line items
+        foreach ($_SESSION['cart'] as $pid => $qty) {
+            $stmt = $conn->prepare("SELECT name, price FROM products WHERE id=?");
+            $stmt->bind_param("i",$pid);
+            $stmt->execute();
+            $row = $stmt->get_result()->fetch_assoc();
+            $subtotal = $row['price'] * $qty;
+            $total += $subtotal;
+            $line_items[] = [
+                'price_data'=>[
+                    'currency'=>'cad',
+                    'product_data'=>['name'=>$row['name']],
+                    'unit_amount'=>intval($row['price']*100),
+                ],
+                'quantity'=>$qty
+            ];
+        }
+
+        $tax = round($total * 0.13, 2);
+        $grand_total = round($total + $tax, 2);
+
+        // Stripe payment processing
+        if ($payment_method === 'card') {
+            // Append tax as a line item
+            $line_items[] = [
+                'price_data'=>[
+                    'currency'=>'cad',
+                    'product_data'=>['name'=>'Tax (13%)'],
+                    'unit_amount'=>intval($tax * 100),
+                ],
+                'quantity'=>1
+            ];
+
+            // Save billing info & cart
+            $_SESSION['billing_info'] = compact(
+                'full_name','email','phone','address','city','province','postal_code','country','instructions','user_id'
+            );
+            $_SESSION['cart_backup'] = $_SESSION['cart'];
+
+            $session = \Stripe\Checkout\Session::create([
+                'payment_method_types'=>['card'],
+                'line_items'=>$line_items,
+                'mode'=>'payment',
+                'customer_email'=>$email,
+                'success_url'=>'http://' . $_SERVER['HTTP_HOST'] . '/grocery-store/order-success.php?session_id={CHECKOUT_SESSION_ID}',
+                'cancel_url'=>'http://' . $_SERVER['HTTP_HOST'] . '/grocery-store/checkout.php?payment=cancelled'
+            ]);
+
+            header("Location: " . $session->url);
+            exit;
+        }
+
+        // Process cash/interac orders
+        $stmt = $conn->prepare("INSERT INTO orders (user_id, name, email, phone, address, city, province, postal_code, country, instructions, payment_method, total) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)");
+        $stmt->bind_param("issssssssssd", $user_id, $full_name, $email, $phone, $address, $city, $province, $postal_code, $country, $instructions, $payment_method, $grand_total);
         $stmt->execute();
         $order_id = $stmt->insert_id;
 
-        foreach ($_SESSION['cart'] as $productId => $qty) {
-            $stmt = $conn->prepare("SELECT price FROM products WHERE id = ?");
-            $stmt->bind_param("i", $productId);
+        foreach ($_SESSION['cart'] as $pid => $qty) {
+            $stmt = $conn->prepare("SELECT price FROM products WHERE id=?");
+            $stmt->bind_param("i",$pid);
             $stmt->execute();
-            $result = $stmt->get_result();
-            if ($row = $result->fetch_assoc()) {
-                $price = $row['price'];
-                $insertItem = $conn->prepare("INSERT INTO order_items (order_id, product_id, quantity, price) VALUES (?, ?, ?, ?)");
-                $insertItem->bind_param("iiid", $order_id, $productId, $qty, $price);
-                $insertItem->execute();
-            }
+            $price = $stmt->get_result()->fetch_assoc()['price'];
+            $ins = $conn->prepare("INSERT INTO order_items (order_id,product_id,quantity,price) VALUES (?,?,?,?)");
+            $ins->bind_param("iiid", $order_id, $pid, $qty, $price);
+            $ins->execute();
         }
 
-        $to = $email;
-        $subject = "Order Confirmation - The Indian Supermarket";
-        $headers = "From: no-reply@theindiansupermarket.com\r\n";
-        $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
-        $message = "Hi $name,\n\nThank you for your order!\n\nOrder ID: #$order_id\nSubtotal: $" . number_format($total, 2) . "\nTax (13%): $" . number_format($tax, 2) . "\nTotal: $" . number_format($grand_total, 2) . "\n\nWe’ll process your order shortly.\n\nRegards,\nThe Indian Supermarket";
-
-        mail($to, $subject, $message, $headers);
-
+        sendInvoice($order_id, $conn);
+        unset($_SESSION['cart']);
         $_SESSION['order_id'] = $order_id;
-        $_SESSION['cart'] = [];
+
         header("Location: order-success.php");
         exit;
     }
 }
 ?>
+<?php include 'includes/header.php'; ?>
 
 <div class="container py-5">
   <h2 class="mb-4 fw-bold text-success text-center">Checkout</h2>
