@@ -11,17 +11,22 @@ $user = $_SESSION['user'];
 $user_id = $user['id'];
 
 // Initialize variables
-$name = $email = $photo_path = null;
-$photo_path = isset($user['photo']) ? $user['photo'] : null;
+$photo_path = $user['photo'] ?? null;
 
 // Handle form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $name = trim($_POST['name'] ?? '');
+    $first_name = trim($_POST['first_name'] ?? '');
+    $last_name = trim($_POST['last_name'] ?? '');
     $email = trim($_POST['email'] ?? '');
 
     // Validate input
-    if (empty($name) || empty($email)) {
+    if (empty($first_name) || empty($last_name) || empty($email)) {
         header("Location: user_profile.php?error=empty_fields");
+        exit;
+    }
+
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        header("Location: user_profile.php?error=invalid_email");
         exit;
     }
 
@@ -51,12 +56,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Update database
-    $stmt = $conn->prepare("UPDATE users SET name = ?, email = ?, photo = ? WHERE id = ?");
-    $stmt->bind_param("sssi", $name, $email, $photo_path, $user_id);
+    $stmt = $conn->prepare("UPDATE users SET first_name = ?, last_name = ?, email = ?, photo = ? WHERE id = ?");
+    $stmt->bind_param("ssssi", $first_name, $last_name, $email, $photo_path, $user_id);
     $stmt->execute();
 
     // Update session
-    $_SESSION['user']['name'] = $name;
+    $_SESSION['user']['first_name'] = $first_name;
+    $_SESSION['user']['last_name'] = $last_name;
     $_SESSION['user']['email'] = $email;
     $_SESSION['user']['photo'] = $photo_path;
 
