@@ -28,7 +28,7 @@ $user_id = $user['id'];
             <div class="mb-3 mx-auto" style="width: 150px; height: 150px; overflow: hidden; border-radius: 50%; border: 3px solid #198754; box-shadow: 0 0 8px rgba(25, 135, 84, 0.5);">
               <img src="<?= !empty($user['photo']) ? htmlspecialchars($user['photo']) : 'img/apples.jpg' ?>" alt="Profile photo" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
-            <h5 class="fw-semibold mb-1"><?= htmlspecialchars($user['name']) ?></h5>
+            <h5 class="fw-semibold mb-1"><?= htmlspecialchars($user['first_name'] . ' ' . $user['last_name']) ?></h5>
             <p class="text-muted mb-2"><?= htmlspecialchars($user['email']) ?></p>
             <span class="badge bg-success-subtle text-success">Customer</span>
           </div>
@@ -72,7 +72,18 @@ $user_id = $user['id'];
                       <p><strong>Total:</strong> $<?= number_format($order['total'], 2) ?> CAD</p>
                       <p><strong>Payment:</strong> <?= ucfirst($order['payment_method']) ?></p>
                       <p><strong>Shipping:</strong> <?= htmlspecialchars($order['address']) ?>, <?= htmlspecialchars($order['city']) ?>, <?= htmlspecialchars($order['province']) ?>, <?= htmlspecialchars($order['country']) ?></p>
-
+               
+                      <?php
+                      $invoice_file = "invoices/invoice_{$order_id}.pdf";
+                      if (file_exists($invoice_file)):
+                      ?>
+                      <a href="<?= $invoice_file ?>" class="btn btn-sm btn-outline-danger mt-2" target="_blank">
+                      <i class="bi bi-file-earmark-pdf-fill"></i> Download Invoice
+                      </a>
+                      <?php else: ?>
+                      <span class="badge bg-warning text-dark mt-2">Invoice not available</span>
+                      <?php endif; ?>
+                      
                       <?php
                       $item_stmt = $conn->prepare("
                           SELECT p.name, oi.quantity, oi.price
@@ -111,12 +122,17 @@ $user_id = $user['id'];
 
             <form method="POST" action="update_profile.php" enctype="multipart/form-data">
               <div class="mb-3">
-                <label for="name" class="form-label fw-semibold">Full Name</label>
-                <input type="text" class="form-control" id="name" name="name" value="<?= htmlspecialchars($user['name']) ?>" required>
+                <label for="first_name" class="form-label fw-semibold">First Name <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="first_name" name="first_name" value="<?= htmlspecialchars($user['first_name']) ?>" required>
+              </div>
+              
+              <div class="mb-3">
+                <label for="last_name" class="form-label fw-semibold">Last Name <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="last_name" name="last_name" value="<?= htmlspecialchars($user['last_name']) ?>" required>
               </div>
 
               <div class="mb-3">
-                <label for="email" class="form-label fw-semibold">Email</label>
+                <label for="email" class="form-label fw-semibold">Email <span class="text-danger">*</span></label>
                 <input type="email" class="form-control" id="email" name="email" value="<?= htmlspecialchars($user['email']) ?>" required>
               </div>
 
