@@ -13,7 +13,7 @@ $rating = intval($_POST['rating'] ?? 0);
 $review = trim($_POST['review'] ?? '');
 
 if ($product_id <= 0 || $rating < 1 || $rating > 5) {
-    header("Location: product.php?id=$product_id&error=invalid");
+    header("Location: product_details.php?id=$product_id&error=invalid");
     exit;
 }
 
@@ -25,7 +25,7 @@ $stmt->store_result();
 
 if ($stmt->num_rows > 0) {
     // Already rated
-    header("Location: product.php?id=$product_id&error=already_rated");
+    header("Location: product_details.php?id=$product_id&error=already_rated");
     exit;
 }
 
