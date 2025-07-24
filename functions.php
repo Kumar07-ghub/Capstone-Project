@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -117,4 +118,19 @@ function sendInvoice($order_id, $conn) {
     } catch (Exception $e) {
         error_log("Email sending failed: " . $mail->ErrorInfo);
     }
+=======
+<?php
+function sendInvoice($order_id, $conn) {
+    // Example logic — customize as needed
+    $stmt = $conn->prepare("SELECT * FROM orders WHERE id = ?");
+    $stmt->bind_param("i", $order_id);
+    $stmt->execute();
+    $order = $stmt->get_result()->fetch_assoc();
+
+    if (!$order) return;
+
+    // Create a PDF invoice or send an email, etc.
+    // For now, just simulate:
+    error_log("Sending invoice for order #" . $order_id . " to " . $order['email']);
+>>>>>>> 07d8e6ccfd579de17e14e08d58f8a836c66fbf26
 }
