@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 namespace Stripe;
@@ -9,3 +10,16 @@ interface StripeStreamingClientInterface extends BaseStripeClientInterface
 {
     public function requestStream($method, $path, $readBodyChunkCallable, $params, $opts);
 }
+=======
+<?php
+
+namespace Stripe;
+
+/**
+ * Interface for a Stripe client.
+ */
+interface StripeStreamingClientInterface extends BaseStripeClientInterface
+{
+    public function requestStream($method, $path, $readBodyChunkCallable, $params, $opts);
+}
+>>>>>>> origin/main
