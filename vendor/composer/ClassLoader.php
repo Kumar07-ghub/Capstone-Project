@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /*
@@ -579,6 +580,8 @@ class ClassLoader
     }
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /*
@@ -1158,4 +1161,7 @@ class ClassLoader
         }, null, null);
     }
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

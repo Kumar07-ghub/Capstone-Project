@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -36,6 +37,8 @@ $PHPMAILER_LANG['smtp_detail']          = 'Детали: ';
 $PHPMAILER_LANG['smtp_error']           = 'Ошибка SMTP-сервера: ';
 $PHPMAILER_LANG['variable_set']         = 'Невозможно установить или сбросить переменную: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -72,4 +75,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'Ошибка соединения с 
 $PHPMAILER_LANG['smtp_detail']          = 'Детали: ';
 $PHPMAILER_LANG['smtp_error']           = 'Ошибка SMTP-сервера: ';
 $PHPMAILER_LANG['variable_set']         = 'Невозможно установить или сбросить переменную: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

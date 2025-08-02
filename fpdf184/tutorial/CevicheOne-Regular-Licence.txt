@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com), 
 with Reserved Font Names "Cecivhe" and "Ceviche One"
 
@@ -94,6 +95,8 @@ DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com), 
 with Reserved Font Names "Cecivhe" and "Ceviche One"
 
@@ -188,4 +191,7 @@ INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
 DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 namespace Stripe;
@@ -42,6 +43,8 @@ abstract class Webhook
     }
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 namespace Stripe;
@@ -84,4 +87,7 @@ abstract class Webhook
         return Event::constructFrom($data);
     }
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

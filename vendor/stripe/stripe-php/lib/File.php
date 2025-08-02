@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 // File generated from our OpenAPI spec
@@ -120,6 +121,8 @@ class File extends ApiResource
     }
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 // File generated from our OpenAPI spec
@@ -240,4 +243,7 @@ class File extends ApiResource
         return static::_create($flatParams, $opts);
     }
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

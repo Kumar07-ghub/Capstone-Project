@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -27,6 +28,8 @@ $PHPMAILER_LANG['smtp_error']           = 'Ralat pada pelayan SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'Tidak boleh menetapkan atau menetapkan semula pembolehubah: ';
 $PHPMAILER_LANG['extension_missing']    = 'Sambungan hilang: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -54,4 +57,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP Connect() telah gagal.';
 $PHPMAILER_LANG['smtp_error']           = 'Ralat pada pelayan SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'Tidak boleh menetapkan atau menetapkan semula pembolehubah: ';
 $PHPMAILER_LANG['extension_missing']    = 'Sambungan hilang: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

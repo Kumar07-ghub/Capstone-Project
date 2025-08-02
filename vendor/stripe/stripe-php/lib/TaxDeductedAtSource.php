@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 // File generated from our OpenAPI spec
@@ -17,6 +18,8 @@ class TaxDeductedAtSource extends ApiResource
     const OBJECT_NAME = 'tax_deducted_at_source';
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 // File generated from our OpenAPI spec
@@ -34,4 +37,7 @@ class TaxDeductedAtSource extends ApiResource
 {
     const OBJECT_NAME = 'tax_deducted_at_source';
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

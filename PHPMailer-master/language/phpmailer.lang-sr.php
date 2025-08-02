@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -28,6 +29,8 @@ $PHPMAILER_LANG['smtp_error']           = 'Грешка SMTP сервера: ';
 $PHPMAILER_LANG['variable_set']         = 'Није могуће задати нити ресетовати променљиву: ';
 $PHPMAILER_LANG['extension_missing']    = 'Недостаје проширење: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -56,4 +59,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'Повезивање са SMTP сер
 $PHPMAILER_LANG['smtp_error']           = 'Грешка SMTP сервера: ';
 $PHPMAILER_LANG['variable_set']         = 'Није могуће задати нити ресетовати променљиву: ';
 $PHPMAILER_LANG['extension_missing']    = 'Недостаје проширење: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Austria;Vienna;83859;8075
 Belgium;Brussels;30518;10192
 Denmark;Copenhagen;43094;5295
@@ -15,6 +16,8 @@ Spain;Madrid;504790;39348
 Sweden;Stockholm;410934;8839
 United Kingdom;London;243820;58862
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 Austria;Vienna;83859;8075
 Belgium;Brussels;30518;10192
 Denmark;Copenhagen;43094;5295
@@ -30,4 +33,7 @@ Portugal;Lisbon;91906;9957
 Spain;Madrid;504790;39348
 Sweden;Stockholm;410934;8839
 United Kingdom;London;243820;58862
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

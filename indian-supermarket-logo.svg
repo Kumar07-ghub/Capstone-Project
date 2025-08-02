@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
 <path d="M0 0 C337.92 0 675.84 0 1024 0 C1024 337.92 1024 675.84 1024 1024 C686.08 1024 348.16 1024 0 1024 C0 686.08 0 348.16 0 0 Z " fill="#FEFDFB" transform="translate(0,0)"/>
@@ -175,6 +176,8 @@
 <path d="M0 0 C2 2 2 2 2.1953125 3.9453125 C2.13020833 5.96354167 2.06510417 7.98177083 2 10 C-0.13262124 6.80106814 -0.59021548 4.77001757 -1 1 C-0.67 0.67 -0.34 0.34 0 0 Z " fill="#D76723" transform="translate(133,454)"/>
 </svg>
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?xml version="1.0" encoding="UTF-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
 <path d="M0 0 C337.92 0 675.84 0 1024 0 C1024 337.92 1024 675.84 1024 1024 C686.08 1024 348.16 1024 0 1024 C0 686.08 0 348.16 0 0 Z " fill="#FEFDFB" transform="translate(0,0)"/>
@@ -350,4 +353,7 @@
 <path d="M0 0 C0.99 0 1.98 0 3 0 C3.66 1.65 4.32 3.3 5 5 C4.01 5.66 3.02 6.32 2 7 C1.34 4.69 0.68 2.38 0 0 Z " fill="#124028" transform="translate(664,531)"/>
 <path d="M0 0 C2 2 2 2 2.1953125 3.9453125 C2.13020833 5.96354167 2.06510417 7.98177083 2 10 C-0.13262124 6.80106814 -0.59021548 4.77001757 -1 1 C-0.67 0.67 -0.34 0.34 0 0 Z " fill="#D76723" transform="translate(133,454)"/>
 </svg>
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

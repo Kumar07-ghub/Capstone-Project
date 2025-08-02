@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -26,6 +27,8 @@ $PHPMAILER_LANG['smtp_error']           = 'SMTP-bediener fout: ';
 $PHPMAILER_LANG['variable_set']         = 'Kan nie veranderlike instel of herstel nie: ';
 $PHPMAILER_LANG['extension_missing']    = 'Uitbreiding ontbreek: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -52,4 +55,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP-verbinding () misluk.';
 $PHPMAILER_LANG['smtp_error']           = 'SMTP-bediener fout: ';
 $PHPMAILER_LANG['variable_set']         = 'Kan nie veranderlike instel of herstel nie: ';
 $PHPMAILER_LANG['extension_missing']    = 'Uitbreiding ontbreek: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

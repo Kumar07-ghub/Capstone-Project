@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 /*******************************************************************************
 * Class to parse and subset TrueType fonts                                     *
@@ -714,6 +715,8 @@ class TTFParser
 }
 ?>
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 /*******************************************************************************
 * Class to parse and subset TrueType fonts                                     *
@@ -1428,4 +1431,7 @@ class TTFParser
 	}
 }
 ?>
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

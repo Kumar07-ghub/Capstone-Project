@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -36,6 +37,8 @@ $PHPMAILER_LANG['smtp_detail']          = 'Podrobnosti: ';
 $PHPMAILER_LANG['smtp_error']           = 'Napaka SMTP strežnika: ';
 $PHPMAILER_LANG['variable_set']         = 'Ne morem nastaviti oz. ponastaviti spremenljivke: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -72,4 +75,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'Ne morem vzpostaviti povezave s SMTP 
 $PHPMAILER_LANG['smtp_detail']          = 'Podrobnosti: ';
 $PHPMAILER_LANG['smtp_error']           = 'Napaka SMTP strežnika: ';
 $PHPMAILER_LANG['variable_set']         = 'Ne morem nastaviti oz. ponastaviti spremenljivke: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 // File generated from our OpenAPI spec
@@ -26,6 +27,8 @@ class LineItem extends ApiResource
     const OBJECT_NAME = 'item';
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 // File generated from our OpenAPI spec
@@ -52,4 +55,7 @@ class LineItem extends ApiResource
 {
     const OBJECT_NAME = 'item';
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

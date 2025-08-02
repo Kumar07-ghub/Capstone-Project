@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -28,6 +29,8 @@ $PHPMAILER_LANG['smtp_error']           = 'SMTP serveri viga: ';
 $PHPMAILER_LANG['variable_set']         = 'Ei õnnestunud määrata või lähtestada muutujat: ';
 $PHPMAILER_LANG['extension_missing']    = 'Nõutud laiendus on puudu: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -56,4 +59,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP Connect() ebaõnnestus.';
 $PHPMAILER_LANG['smtp_error']           = 'SMTP serveri viga: ';
 $PHPMAILER_LANG['variable_set']         = 'Ei õnnestunud määrata või lähtestada muutujat: ';
 $PHPMAILER_LANG['extension_missing']    = 'Nõutud laiendus on puudu: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

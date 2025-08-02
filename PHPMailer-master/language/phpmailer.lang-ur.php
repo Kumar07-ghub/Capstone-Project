@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -30,6 +31,8 @@ $PHPMAILER_LANG['smtp_code']            = 'SMTP سرور کوڈ: ';
 $PHPMAILER_LANG['smtp_code_ex']         = 'اضافی SMTP سرور کی معلومات:';
 $PHPMAILER_LANG['invalid_header']       = 'غلط ہیڈر کا نام یا قدر';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -60,4 +63,7 @@ $PHPMAILER_LANG['extension_missing']    = 'ایکٹینشن موجود نہیں 
 $PHPMAILER_LANG['smtp_code']            = 'SMTP سرور کوڈ: ';
 $PHPMAILER_LANG['smtp_code_ex']         = 'اضافی SMTP سرور کی معلومات:';
 $PHPMAILER_LANG['invalid_header']       = 'غلط ہیڈر کا نام یا قدر';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

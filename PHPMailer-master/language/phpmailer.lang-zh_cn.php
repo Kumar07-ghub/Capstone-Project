@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -36,6 +37,8 @@ $PHPMAILER_LANG['smtp_code']            = 'SMTP代码： ';
 $PHPMAILER_LANG['smtp_code_ex']         = '附加SMTP信息： ';
 $PHPMAILER_LANG['smtp_detail']          = '详情:';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -72,4 +75,7 @@ $PHPMAILER_LANG['signing']              = '签名错误：';
 $PHPMAILER_LANG['smtp_code']            = 'SMTP代码： ';
 $PHPMAILER_LANG['smtp_code_ex']         = '附加SMTP信息： ';
 $PHPMAILER_LANG['smtp_detail']          = '详情:';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

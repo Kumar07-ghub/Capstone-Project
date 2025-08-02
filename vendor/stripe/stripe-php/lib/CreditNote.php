@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 // File generated from our OpenAPI spec
@@ -234,6 +235,8 @@ class CreditNote extends ApiResource
     }
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 // File generated from our OpenAPI spec
@@ -468,4 +471,7 @@ class CreditNote extends ApiResource
         return self::_allNestedResources($id, static::PATH_LINES, $params, $opts);
     }
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

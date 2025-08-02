@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -34,6 +35,8 @@ $PHPMAILER_LANG['smtp_detail']          = 'Detalhes: ';
 $PHPMAILER_LANG['smtp_error']           = 'Erro do servidor SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'Não foi possível definir ou redefinir a variável: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -68,4 +71,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'Falha na função SMTP connect().';
 $PHPMAILER_LANG['smtp_detail']          = 'Detalhes: ';
 $PHPMAILER_LANG['smtp_error']           = 'Erro do servidor SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'Não foi possível definir ou redefinir a variável: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

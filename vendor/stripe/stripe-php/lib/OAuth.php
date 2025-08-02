@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 namespace Stripe;
@@ -101,6 +102,8 @@ abstract class OAuth
     }
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 namespace Stripe;
@@ -202,4 +205,7 @@ abstract class OAuth
         return $clientId;
     }
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

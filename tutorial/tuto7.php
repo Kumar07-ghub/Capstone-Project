@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 define('FPDF_FONTPATH','.');
 require('../fpdf.php');
@@ -11,6 +12,8 @@ $pdf->Cell(0,10,'Enjoy new fonts with FPDF!');
 $pdf->Output();
 ?>
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 define('FPDF_FONTPATH','.');
 require('../fpdf.php');
@@ -22,4 +25,7 @@ $pdf->SetFont('CevicheOne','',45);
 $pdf->Cell(0,10,'Enjoy new fonts with FPDF!');
 $pdf->Output();
 ?>
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -27,6 +28,8 @@ $PHPMAILER_LANG['smtp_error']           = 'SMTP-szerver hiba: ';
 $PHPMAILER_LANG['variable_set']         = 'A következő változók beállítása nem sikerült: ';
 $PHPMAILER_LANG['extension_missing']    = 'Bővítmény hiányzik: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -54,4 +57,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'Hiba az SMTP-kapcsolatban.';
 $PHPMAILER_LANG['smtp_error']           = 'SMTP-szerver hiba: ';
 $PHPMAILER_LANG['variable_set']         = 'A következő változók beállítása nem sikerült: ';
 $PHPMAILER_LANG['extension_missing']    = 'Bővítmény hiányzik: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

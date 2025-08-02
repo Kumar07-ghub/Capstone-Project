@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -28,6 +29,8 @@ $PHPMAILER_LANG['smtp_error']           = 'Fehler vom SMTP-Server: ';
 $PHPMAILER_LANG['variable_set']         = 'Kann Variable nicht setzen oder zurücksetzen: ';
 $PHPMAILER_LANG['extension_missing']    = 'Fehlende Erweiterung: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -56,4 +59,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'Verbindung zum SMTP-Server fehlgeschl
 $PHPMAILER_LANG['smtp_error']           = 'Fehler vom SMTP-Server: ';
 $PHPMAILER_LANG['variable_set']         = 'Kann Variable nicht setzen oder zurücksetzen: ';
 $PHPMAILER_LANG['extension_missing']    = 'Fehlende Erweiterung: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 namespace Stripe;
@@ -32,6 +33,8 @@ class RequestTelemetry
     }
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 namespace Stripe;
@@ -64,4 +67,7 @@ class RequestTelemetry
         $this->usage = $usage;
     }
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

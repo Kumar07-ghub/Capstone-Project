@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 // File generated from our OpenAPI spec
@@ -252,6 +253,8 @@ class Quote extends ApiResource
     }
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 // File generated from our OpenAPI spec
@@ -504,4 +507,7 @@ class Quote extends ApiResource
         $this->_requestStream('get', $url, $readBodyChunkCallable, $params, $opts);
     }
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

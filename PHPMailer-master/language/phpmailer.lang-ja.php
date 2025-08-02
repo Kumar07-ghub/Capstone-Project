@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -37,6 +38,8 @@ $PHPMAILER_LANG['smtp_detail']          = '詳細: ';
 $PHPMAILER_LANG['smtp_error']           = 'SMTPサーバーエラー: ';
 $PHPMAILER_LANG['variable_set']         = '変数が存在しません: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -74,4 +77,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP接続に失敗しました。';
 $PHPMAILER_LANG['smtp_detail']          = '詳細: ';
 $PHPMAILER_LANG['smtp_error']           = 'SMTPサーバーエラー: ';
 $PHPMAILER_LANG['variable_set']         = '変数が存在しません: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 namespace Stripe;
@@ -491,6 +492,8 @@ class BaseStripeClient implements StripeClientInterface, StripeStreamingClientIn
     }
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 namespace Stripe;
@@ -982,4 +985,7 @@ class BaseStripeClient implements StripeClientInterface, StripeStreamingClientIn
         }
     }
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

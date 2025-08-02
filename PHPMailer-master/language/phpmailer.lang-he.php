@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -27,6 +28,8 @@ $PHPMAILER_LANG['smtp_error']           = 'שגיאת שרת SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'לא ניתן לקבוע או לשנות את המשתנה: ';
 //$PHPMAILER_LANG['extension_missing']    = 'Extension missing: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -54,4 +57,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP Connect() failed.';
 $PHPMAILER_LANG['smtp_error']           = 'שגיאת שרת SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'לא ניתן לקבוע או לשנות את המשתנה: ';
 //$PHPMAILER_LANG['extension_missing']    = 'Extension missing: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 namespace Stripe;
@@ -322,6 +323,8 @@ class Collection extends StripeObject implements \Countable, \IteratorAggregate
     }
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 namespace Stripe;
@@ -644,4 +647,7 @@ class Collection extends StripeObject implements \Countable, \IteratorAggregate
         return [$url['path'], $params];
     }
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

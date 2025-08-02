@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 // File generated from our OpenAPI spec
@@ -42,6 +43,8 @@ class CustomerCashBalanceTransaction extends ApiResource
     const TYPE_UNAPPLIED_FROM_PAYMENT = 'unapplied_from_payment';
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 // File generated from our OpenAPI spec
@@ -84,4 +87,7 @@ class CustomerCashBalanceTransaction extends ApiResource
     const TYPE_TRANSFERRED_TO_BALANCE = 'transferred_to_balance';
     const TYPE_UNAPPLIED_FROM_PAYMENT = 'unapplied_from_payment';
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

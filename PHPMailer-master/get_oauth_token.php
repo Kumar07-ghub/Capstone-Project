@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -182,6 +183,8 @@ if (!isset($_GET['code'])) {
     echo 'Refresh Token: ', htmlspecialchars($token->getRefreshToken());
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -364,4 +367,7 @@ if (!isset($_GET['code'])) {
     //Use this to get a new access token if the old one expires
     echo 'Refresh Token: ', htmlspecialchars($token->getRefreshToken());
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

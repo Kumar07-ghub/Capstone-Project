@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -33,6 +34,8 @@ $PHPMAILER_LANG['smtp_detail']          = 'Szczegóły: ';
 $PHPMAILER_LANG['smtp_error']           = 'Błąd SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'Nie można ustawić lub zmodyfikować zmiennej: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -66,4 +69,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'Wywołanie funkcji SMTP Connect() zos
 $PHPMAILER_LANG['smtp_detail']          = 'Szczegóły: ';
 $PHPMAILER_LANG['smtp_error']           = 'Błąd SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'Nie można ustawić lub zmodyfikować zmiennej: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -35,6 +36,8 @@ $PHPMAILER_LANG['smtp_detail']          = 'विवरण: ';
 $PHPMAILER_LANG['smtp_error']           = 'SMTP सर्वर त्रुटि। ';
 $PHPMAILER_LANG['variable_set']         = 'चर को बना या संशोधित नहीं किया जा सकता। ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -70,4 +73,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP का connect () फ़ंक�
 $PHPMAILER_LANG['smtp_detail']          = 'विवरण: ';
 $PHPMAILER_LANG['smtp_error']           = 'SMTP सर्वर त्रुटि। ';
 $PHPMAILER_LANG['variable_set']         = 'चर को बना या संशोधित नहीं किया जा सकता। ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

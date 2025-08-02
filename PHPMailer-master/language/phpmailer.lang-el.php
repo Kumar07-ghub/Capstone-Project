@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -33,6 +34,8 @@ $PHPMAILER_LANG['smtp_detail']          = 'Λεπτομέρεια: ';
 $PHPMAILER_LANG['smtp_error']           = 'Σφάλμα με τον διακομιστή SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'Αδυναμία ορισμού ή επαναφοράς μεταβλητής: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -66,4 +69,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'Αποτυχία σύνδεσης SMT
 $PHPMAILER_LANG['smtp_detail']          = 'Λεπτομέρεια: ';
 $PHPMAILER_LANG['smtp_error']           = 'Σφάλμα με τον διακομιστή SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'Αδυναμία ορισμού ή επαναφοράς μεταβλητής: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

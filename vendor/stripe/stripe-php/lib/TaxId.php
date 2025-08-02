@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 // File generated from our OpenAPI spec
@@ -223,6 +224,8 @@ class TaxId extends ApiResource
     const VERIFICATION_STATUS_VERIFIED = 'verified';
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 // File generated from our OpenAPI spec
@@ -446,4 +449,7 @@ class TaxId extends ApiResource
     const VERIFICATION_STATUS_UNVERIFIED = 'unverified';
     const VERIFICATION_STATUS_VERIFIED = 'verified';
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 namespace Stripe;
@@ -36,6 +37,8 @@ class RecipientTransfer extends ApiResource
     const OBJECT_NAME = 'recipient_transfer';
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 namespace Stripe;
@@ -72,4 +75,7 @@ class RecipientTransfer extends ApiResource
 {
     const OBJECT_NAME = 'recipient_transfer';
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

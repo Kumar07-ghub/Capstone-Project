@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -27,6 +28,8 @@ $PHPMAILER_LANG['smtp_error']           = 'SMTP serverfel: ';
 $PHPMAILER_LANG['variable_set']         = 'Kunde inte definiera eller återställa variabel: ';
 $PHPMAILER_LANG['extension_missing']    = 'Tillägg ej tillgängligt: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -54,4 +57,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP Connect() misslyckades.';
 $PHPMAILER_LANG['smtp_error']           = 'SMTP serverfel: ';
 $PHPMAILER_LANG['variable_set']         = 'Kunde inte definiera eller återställa variabel: ';
 $PHPMAILER_LANG['extension_missing']    = 'Tillägg ej tillgängligt: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

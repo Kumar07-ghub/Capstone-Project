@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 // File generated from our OpenAPI spec
@@ -28,6 +29,8 @@ class SourceMandateNotification extends ApiResource
     const OBJECT_NAME = 'source_mandate_notification';
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 // File generated from our OpenAPI spec
@@ -56,4 +59,7 @@ class SourceMandateNotification extends ApiResource
 {
     const OBJECT_NAME = 'source_mandate_notification';
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

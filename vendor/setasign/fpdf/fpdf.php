@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 /*******************************************************************************
 * FPDF                                                                         *
@@ -1934,6 +1935,8 @@ protected function _enddoc()
 }
 ?>
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 /*******************************************************************************
 * FPDF                                                                         *
@@ -3868,4 +3871,7 @@ protected function _enddoc()
 }
 }
 ?>
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

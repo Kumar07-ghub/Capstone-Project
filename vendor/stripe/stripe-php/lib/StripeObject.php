@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 namespace Stripe;
@@ -614,6 +615,8 @@ class StripeObject implements \ArrayAccess, \Countable, \JsonSerializable
     }
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 namespace Stripe;
@@ -1228,4 +1231,7 @@ class StripeObject implements \ArrayAccess, \Countable, \JsonSerializable
         return isset($this->_values['deleted']) ? $this->_values['deleted'] : false;
     }
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

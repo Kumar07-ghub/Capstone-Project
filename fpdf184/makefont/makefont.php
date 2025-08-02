@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 /*******************************************************************************
 * Utility to generate font definition files                                    *
@@ -447,6 +448,8 @@ if(PHP_SAPI=='cli')
 }
 ?>
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 /*******************************************************************************
 * Utility to generate font definition files                                    *
@@ -894,4 +897,7 @@ if(PHP_SAPI=='cli')
 	MakeFont($fontfile, $enc, $embed, $subset);
 }
 ?>
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

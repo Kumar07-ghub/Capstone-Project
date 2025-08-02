@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 // File generated from our OpenAPI spec
@@ -18,6 +19,8 @@ class ConnectCollectionTransfer extends ApiResource
     const OBJECT_NAME = 'connect_collection_transfer';
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 // File generated from our OpenAPI spec
@@ -36,4 +39,7 @@ class ConnectCollectionTransfer extends ApiResource
 {
     const OBJECT_NAME = 'connect_collection_transfer';
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -35,6 +36,8 @@ $PHPMAILER_LANG['smtp_error']           = 'SMTP চাৰ্ভাৰৰ ত্�
 $PHPMAILER_LANG['variable_set']         = 'চলক নিৰ্ধাৰণ কৰিব পৰা নগল: ';
 $PHPMAILER_LANG['extension_missing']    = 'অনুপস্থিত সম্প্ৰসাৰণ: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -70,4 +73,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP সংযোগ() ব্যৰ�
 $PHPMAILER_LANG['smtp_error']           = 'SMTP চাৰ্ভাৰৰ ত্ৰুটি: ';
 $PHPMAILER_LANG['variable_set']         = 'চলক নিৰ্ধাৰণ কৰিব পৰা নগল: ';
 $PHPMAILER_LANG['extension_missing']    = 'অনুপস্থিত সম্প্ৰসাৰণ: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

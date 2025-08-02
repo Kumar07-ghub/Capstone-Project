@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 namespace Stripe;
@@ -45,6 +46,8 @@ interface StripeClientInterface extends BaseStripeClientInterface
     public function requestCollection($method, $path, $params, $opts);
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 namespace Stripe;
@@ -90,4 +93,7 @@ interface StripeClientInterface extends BaseStripeClientInterface
      */
     public function requestCollection($method, $path, $params, $opts);
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

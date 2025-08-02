@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -36,6 +37,8 @@ $PHPMAILER_LANG['smtp_detail']          = 'Detalje: ';
 $PHPMAILER_LANG['smtp_error']           = 'SMTP server fejl: ';
 $PHPMAILER_LANG['variable_set']         = 'Kunne ikke definere eller nulstille variablen: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -72,4 +75,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP Connect() fejlede.';
 $PHPMAILER_LANG['smtp_detail']          = 'Detalje: ';
 $PHPMAILER_LANG['smtp_error']           = 'SMTP server fejl: ';
 $PHPMAILER_LANG['variable_set']         = 'Kunne ikke definere eller nulstille variablen: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

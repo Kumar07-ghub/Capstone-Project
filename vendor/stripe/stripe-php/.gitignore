@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ignore build files
 build/*
 
@@ -32,6 +33,8 @@ phpdoc.xml
 # Ignore cached PHPUnit results.
 .phpunit.result.cache
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 # Ignore build files
 build/*
 
@@ -64,4 +67,7 @@ phpdoc.xml
 
 # Ignore cached PHPUnit results.
 .phpunit.result.cache
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

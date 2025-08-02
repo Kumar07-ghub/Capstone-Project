@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 namespace Stripe;
@@ -51,6 +52,8 @@ interface BaseStripeClientInterface
     public function getMeterEventsBase();
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 namespace Stripe;
@@ -102,4 +105,7 @@ interface BaseStripeClientInterface
      */
     public function getMeterEventsBase();
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

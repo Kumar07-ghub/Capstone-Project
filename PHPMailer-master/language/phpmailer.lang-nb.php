@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -33,6 +34,8 @@
  $PHPMAILER_LANG['smtp_error']           = 'SMTP-serverfeil: ';
  $PHPMAILER_LANG['variable_set']         = 'Kan ikke angi eller tilbakestille variabel: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -66,4 +69,7 @@
  $PHPMAILER_LANG['smtp_detail']          = 'Detaljer: ';
  $PHPMAILER_LANG['smtp_error']           = 'SMTP-serverfeil: ';
  $PHPMAILER_LANG['variable_set']         = 'Kan ikke angi eller tilbakestille variabel: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

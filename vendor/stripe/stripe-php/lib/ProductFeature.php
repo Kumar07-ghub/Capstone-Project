@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 // File generated from our OpenAPI spec
@@ -19,6 +20,8 @@ class ProductFeature extends ApiResource
     const OBJECT_NAME = 'product_feature';
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 // File generated from our OpenAPI spec
@@ -38,4 +41,7 @@ class ProductFeature extends ApiResource
 {
     const OBJECT_NAME = 'product_feature';
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -35,6 +36,8 @@ $PHPMAILER_LANG['smtp_error']           = 'SMTP সার্ভার ত্র�
 $PHPMAILER_LANG['variable_set']         = 'পরিবর্তনশীল সেট করা যায়নি: ';
 $PHPMAILER_LANG['extension_missing']    = 'অনুপস্থিত এক্সটেনশন: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -70,4 +73,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP সংযোগ() ব্যর�
 $PHPMAILER_LANG['smtp_error']           = 'SMTP সার্ভার ত্রুটি: ';
 $PHPMAILER_LANG['variable_set']         = 'পরিবর্তনশীল সেট করা যায়নি: ';
 $PHPMAILER_LANG['extension_missing']    = 'অনুপস্থিত এক্সটেনশন: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

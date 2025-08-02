@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
                   GNU LESSER GENERAL PUBLIC LICENSE
                        Version 2.1, February 1999
 
@@ -501,6 +502,8 @@ necessary.  Here is a sample; alter the names:
   Ty Coon, President of Vice
 
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
                   GNU LESSER GENERAL PUBLIC LICENSE
                        Version 2.1, February 1999
 
@@ -1002,5 +1005,8 @@ necessary.  Here is a sample; alter the names:
   <signature of Ty Coon>, 1 April 1990
   Ty Coon, President of Vice
 
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 That's all there is to it!

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 During the period in which these developments were occurring, I had returned from a scientific undertaking organized to explore the Nebraska badlands in the United States. In my capacity as Assistant Professor at the Paris Museum of Natural History, I had been attached to this expedition by the French government. After spending six months in Nebraska, I arrived in New York laden with valuable collections near the end of March. My departure for France was set for early May. In the meantime, then, I was busy classifying my mineralogical, botanical, and zoological treasures when that incident took place with the Scotia.
 I was perfectly abreast of this question, which was the big news of the day, and how could I not have been? I had read and reread every American and European newspaper without being any farther along. This mystery puzzled me. Finding it impossible to form any views, I drifted from one extreme to the other. Something was out there, that much was certain, and any doubting Thomas was invited to place his finger on the Scotia's wound.
 When I arrived in New York, the question was at the boiling point. The hypothesis of a drifting islet or an elusive reef, put forward by people not quite in their right minds, was completely eliminated. And indeed, unless this reef had an engine in its belly, how could it move about with such prodigious speed?
@@ -23,6 +24,8 @@ I complied. Since I could no longer hold my tongue, I let it wag. I discussed th
 "So, until information becomes more abundant, I plump for a sea unicorn of colossal dimensions, no longer armed with a mere lance but with an actual spur, like ironclad frigates or those warships called 'rams,' whose mass and motor power it would possess simultaneously.
 "This inexplicable phenomenon is thus explained away--unless it's something else entirely, which, despite everything that has been sighted, studied, explored and experienced, is still possible!"
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 During the period in which these developments were occurring, I had returned from a scientific undertaking organized to explore the Nebraska badlands in the United States. In my capacity as Assistant Professor at the Paris Museum of Natural History, I had been attached to this expedition by the French government. After spending six months in Nebraska, I arrived in New York laden with valuable collections near the end of March. My departure for France was set for early May. In the meantime, then, I was busy classifying my mineralogical, botanical, and zoological treasures when that incident took place with the Scotia.
 I was perfectly abreast of this question, which was the big news of the day, and how could I not have been? I had read and reread every American and European newspaper without being any farther along. This mystery puzzled me. Finding it impossible to form any views, I drifted from one extreme to the other. Something was out there, that much was certain, and any doubting Thomas was invited to place his finger on the Scotia's wound.
 When I arrived in New York, the question was at the boiling point. The hypothesis of a drifting islet or an elusive reef, put forward by people not quite in their right minds, was completely eliminated. And indeed, unless this reef had an engine in its belly, how could it move about with such prodigious speed?
@@ -46,4 +49,7 @@ I complied. Since I could no longer hold my tongue, I let it wag. I discussed th
 "All right then! Imagine this weapon to be ten times stronger and the animal ten times more powerful, launch it at a speed of twenty miles per hour, multiply its mass times its velocity, and you get just the collision we need to cause the specified catastrophe.
 "So, until information becomes more abundant, I plump for a sea unicorn of colossal dimensions, no longer armed with a mere lance but with an actual spur, like ironclad frigates or those warships called 'rams,' whose mass and motor power it would possess simultaneously.
 "This inexplicable phenomenon is thus explained away--unless it's something else entirely, which, despite everything that has been sighted, studied, explored and experienced, is still possible!"
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -31,6 +32,8 @@ $PHPMAILER_LANG['smtp_error']           = 'Kesalahan pada pelayan SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'Tidak dapat mengatur atau mengatur ulang variabel: ';
 $PHPMAILER_LANG['extension_missing']    = 'Ekstensi PHP tidak tersedia: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -62,4 +65,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP Connect() gagal.';
 $PHPMAILER_LANG['smtp_error']           = 'Kesalahan pada pelayan SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'Tidak dapat mengatur atau mengatur ulang variabel: ';
 $PHPMAILER_LANG['extension_missing']    = 'Ekstensi PHP tidak tersedia: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

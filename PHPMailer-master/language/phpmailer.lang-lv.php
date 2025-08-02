@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -27,6 +28,8 @@ $PHPMAILER_LANG['smtp_error']           = 'SMTP servera kļūda: ';
 $PHPMAILER_LANG['variable_set']         = 'Nevar piešķirt mainīgā vērtību: ';
 //$PHPMAILER_LANG['extension_missing']    = 'Extension missing: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -54,4 +57,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP savienojuma kļūda';
 $PHPMAILER_LANG['smtp_error']           = 'SMTP servera kļūda: ';
 $PHPMAILER_LANG['variable_set']         = 'Nevar piešķirt mainīgā vērtību: ';
 //$PHPMAILER_LANG['extension_missing']    = 'Extension missing: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

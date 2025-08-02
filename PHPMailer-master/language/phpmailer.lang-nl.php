@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -34,6 +35,8 @@ $PHPMAILER_LANG['smtp_detail']          = 'Detail: ';
 $PHPMAILER_LANG['smtp_error']           = 'SMTP-serverfout: ';
 $PHPMAILER_LANG['variable_set']         = 'Kan de volgende variabele niet instellen of resetten: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -68,4 +71,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP Verbinding mislukt.';
 $PHPMAILER_LANG['smtp_detail']          = 'Detail: ';
 $PHPMAILER_LANG['smtp_error']           = 'SMTP-serverfout: ';
 $PHPMAILER_LANG['variable_set']         = 'Kan de volgende variabele niet instellen of resetten: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

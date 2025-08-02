@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 require('../fpdf.php');
 
@@ -113,6 +114,8 @@ $pdf->WriteHTML($html);
 $pdf->Output();
 ?>
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 require('../fpdf.php');
 
@@ -226,4 +229,7 @@ $pdf->SetFontSize(14);
 $pdf->WriteHTML($html);
 $pdf->Output();
 ?>
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -30,6 +31,8 @@ $PHPMAILER_LANG['smtp_error']           = 'SMTP chyba serveru: ';
 $PHPMAILER_LANG['variable_set']         = 'Nemožno nastaviť alebo resetovať premennú: ';
 $PHPMAILER_LANG['extension_missing']    = 'Chýba rozšírenie: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -60,4 +63,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP Connect() zlyhalo.';
 $PHPMAILER_LANG['smtp_error']           = 'SMTP chyba serveru: ';
 $PHPMAILER_LANG['variable_set']         = 'Nemožno nastaviť alebo resetovať premennú: ';
 $PHPMAILER_LANG['extension_missing']    = 'Chýba rozšírenie: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

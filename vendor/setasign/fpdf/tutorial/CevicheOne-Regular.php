@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 $type = 'TrueType';
 $name = 'CevicheOne-Regular';
@@ -25,6 +26,8 @@ $originalsize = 25916;
 $subsetted = true;
 ?>
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 $type = 'TrueType';
 $name = 'CevicheOne-Regular';
@@ -50,4 +53,7 @@ $file = 'CevicheOne-Regular.z';
 $originalsize = 25916;
 $subsetted = true;
 ?>
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

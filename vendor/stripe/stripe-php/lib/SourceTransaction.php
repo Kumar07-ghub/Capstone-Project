@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 // File generated from our OpenAPI spec
@@ -48,6 +49,8 @@ class SourceTransaction extends ApiResource
     const TYPE_WECHAT = 'wechat';
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 // File generated from our OpenAPI spec
@@ -96,4 +99,7 @@ class SourceTransaction extends ApiResource
     const TYPE_THREE_D_SECURE = 'three_d_secure';
     const TYPE_WECHAT = 'wechat';
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

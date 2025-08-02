@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 require __DIR__ . '/lib/Util/ApiVersion.php';
@@ -396,6 +397,8 @@ require __DIR__ . '/lib/Service/OAuthService.php';
 require __DIR__ . '/lib/Webhook.php';
 require __DIR__ . '/lib/WebhookSignature.php';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 require __DIR__ . '/lib/Util/ApiVersion.php';
@@ -792,4 +795,7 @@ require __DIR__ . '/lib/Service/OAuthService.php';
 // Webhooks
 require __DIR__ . '/lib/Webhook.php';
 require __DIR__ . '/lib/WebhookSignature.php';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

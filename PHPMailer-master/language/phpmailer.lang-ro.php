@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -33,6 +34,8 @@ $PHPMAILER_LANG['smtp_detail']          = 'Detalii SMTP: ';
 $PHPMAILER_LANG['smtp_error']           = 'Eroare server SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'Nu se poate seta/reseta variabila. ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -66,4 +69,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'Conectarea la serverul SMTP a eșuat.
 $PHPMAILER_LANG['smtp_detail']          = 'Detalii SMTP: ';
 $PHPMAILER_LANG['smtp_error']           = 'Eroare server SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'Nu se poate seta/reseta variabila. ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

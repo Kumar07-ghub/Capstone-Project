@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -27,6 +28,8 @@ $PHPMAILER_LANG['smtp_error']           = 'SMTP серверийн алдаа: '
 $PHPMAILER_LANG['variable_set']         = 'Хувьсагчийг тохируулах эсвэл дахин тохируулах боломжгүй байна: ';
 $PHPMAILER_LANG['extension_missing']    = 'Өргөтгөл байхгүй: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -54,4 +57,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP сервертэй холбог�
 $PHPMAILER_LANG['smtp_error']           = 'SMTP серверийн алдаа: ';
 $PHPMAILER_LANG['variable_set']         = 'Хувьсагчийг тохируулах эсвэл дахин тохируулах боломжгүй байна: ';
 $PHPMAILER_LANG['extension_missing']    = 'Өргөтгөл байхгүй: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

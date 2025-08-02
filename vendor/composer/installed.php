@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php return array(
     'root' => array(
         'name' => 'tarun/grocery-store',
@@ -41,6 +42,8 @@
     ),
 );
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php return array(
     'root' => array(
         'name' => 'tarun/grocery-store',
@@ -82,4 +85,7 @@
         ),
     ),
 );
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

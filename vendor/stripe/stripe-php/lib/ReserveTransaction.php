@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 // File generated from our OpenAPI spec
@@ -17,6 +18,8 @@ class ReserveTransaction extends ApiResource
     const OBJECT_NAME = 'reserve_transaction';
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 // File generated from our OpenAPI spec
@@ -34,4 +37,7 @@ class ReserveTransaction extends ApiResource
 {
     const OBJECT_NAME = 'reserve_transaction';
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 require('../fpdf.php');
 
@@ -81,6 +82,8 @@ $pdf->PrintChapter(2,'THE PROS AND CONS','20k_c2.txt');
 $pdf->Output();
 ?>
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 require('../fpdf.php');
 
@@ -162,4 +165,7 @@ $pdf->PrintChapter(1,'A RUNAWAY REEF','20k_c1.txt');
 $pdf->PrintChapter(2,'THE PROS AND CONS','20k_c2.txt');
 $pdf->Output();
 ?>
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

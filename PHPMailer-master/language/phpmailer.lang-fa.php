@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -28,6 +29,8 @@ $PHPMAILER_LANG['smtp_error']           = 'خطا در SMTP Server: ';
 $PHPMAILER_LANG['variable_set']         = 'امکان ارسال یا ارسال مجدد متغیر‌ها وجود ندارد: ';
 $PHPMAILER_LANG['extension_missing']    = 'افزونه موجود نیست: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -56,4 +59,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'خطا در اتصال به SMTP.';
 $PHPMAILER_LANG['smtp_error']           = 'خطا در SMTP Server: ';
 $PHPMAILER_LANG['variable_set']         = 'امکان ارسال یا ارسال مجدد متغیر‌ها وجود ندارد: ';
 $PHPMAILER_LANG['extension_missing']    = 'افزونه موجود نیست: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -28,6 +29,8 @@ $PHPMAILER_LANG['smtp_error']           = 'Ang server ng SMTP ay nabigo: ';
 $PHPMAILER_LANG['variable_set']         = 'Hindi matatakda o ma-reset ang mga variables: ';
 $PHPMAILER_LANG['extension_missing']    = 'Nawawala ang extension: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -56,4 +59,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'Ang SMTP connect() ay nabigo.';
 $PHPMAILER_LANG['smtp_error']           = 'Ang server ng SMTP ay nabigo: ';
 $PHPMAILER_LANG['variable_set']         = 'Hindi matatakda o ma-reset ang mga variables: ';
 $PHPMAILER_LANG['extension_missing']    = 'Nawawala ang extension: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 require('../fpdf.php');
 
@@ -102,6 +103,8 @@ $pdf->FancyTable($header,$data);
 $pdf->Output();
 ?>
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 require('../fpdf.php');
 
@@ -204,4 +207,7 @@ $pdf->AddPage();
 $pdf->FancyTable($header,$data);
 $pdf->Output();
 ?>
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

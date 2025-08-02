@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 // File generated from our OpenAPI spec
@@ -29,6 +30,8 @@ class CreditNoteLineItem extends ApiResource
     const OBJECT_NAME = 'credit_note_line_item';
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 // File generated from our OpenAPI spec
@@ -58,4 +61,7 @@ class CreditNoteLineItem extends ApiResource
 {
     const OBJECT_NAME = 'credit_note_line_item';
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

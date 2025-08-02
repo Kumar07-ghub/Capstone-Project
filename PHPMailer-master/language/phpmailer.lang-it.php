@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 /**
@@ -28,6 +29,8 @@ $PHPMAILER_LANG['smtp_error']           = 'Errore del server SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'Impossibile impostare o resettare la variabile: ';
 $PHPMAILER_LANG['extension_missing']    = 'Estensione mancante: ';
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 /**
@@ -56,4 +59,7 @@ $PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP Connect() fallita.';
 $PHPMAILER_LANG['smtp_error']           = 'Errore del server SMTP: ';
 $PHPMAILER_LANG['variable_set']         = 'Impossibile impostare o resettare la variabile: ';
 $PHPMAILER_LANG['extension_missing']    = 'Estensione mancante: ';
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)

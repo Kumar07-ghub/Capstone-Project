@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 // File generated from our OpenAPI spec
@@ -25,6 +26,8 @@ class FundingInstructions extends ApiResource
     const FUNDING_TYPE_BANK_TRANSFER = 'bank_transfer';
 }
 =======
+=======
+>>>>>>> e52701a (Update existing files from local folder)
 <?php
 
 // File generated from our OpenAPI spec
@@ -50,4 +53,7 @@ class FundingInstructions extends ApiResource
 
     const FUNDING_TYPE_BANK_TRANSFER = 'bank_transfer';
 }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> e52701a (Update existing files from local folder)
