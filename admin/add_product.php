@@ -27,12 +27,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $fileType = mime_content_type($fileTmpPath);
 
         if (in_array($fileType, $allowedTypes)) {
-            $uploadsDir = '../uploads/products/';
+            // Change the upload directory to 'img/'
+            $uploadsDir = '../img/'; // This is the correct directory
             if (!is_dir($uploadsDir)) mkdir($uploadsDir, 0755, true);
+
+            // Sanitize the file name
             $newFileName = uniqid('prod_', true) . '.' . pathinfo($fileName, PATHINFO_EXTENSION);
             $destination = $uploadsDir . $newFileName;
+
+            // Move the uploaded file to the img/ directory
             if (move_uploaded_file($fileTmpPath, $destination)) {
-                $imagePath = 'uploads/products/' . $newFileName;
+                // Use the relative path for the database or display
+                $imagePath = 'img/' . $newFileName;
             } else {
                 $error = 'Failed to move uploaded file.';
             }
@@ -44,6 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     if (!$error) {
+        // Insert product into the database
         $stmt = $conn->prepare("INSERT INTO products (name, price, image, category, description, unit, stock_quantity) VALUES (?, ?, ?, ?, ?, ?, ?)");
         $stmt->bind_param('sdssssi', $name, $price, $imagePath, $category, $description, $unit, $stock_quantity);
 

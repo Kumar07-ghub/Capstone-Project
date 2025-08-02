@@ -1,7 +1,6 @@
 <<<<<<< HEAD
 <?php
 session_start();
-
 require 'vendor/autoload.php';
 include 'includes/db.php';
 include 'functions.php';

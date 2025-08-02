@@ -2,7 +2,6 @@
 <?php
 session_start();
 include 'includes/db.php';
-
 // Initialize cart if not already set
 if (!isset($_SESSION['cart'])) {
     $_SESSION['cart'] = [];

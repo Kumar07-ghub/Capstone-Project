@@ -34,11 +34,6 @@ body {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-<<<<<<< HEAD
-/* Removed redundant .card-img-top to avoid conflicts */
-=======
->>>>>>> b213b48 (Update style.css)
-
 /* Product Card Layout Fix */
 .product-card {
   display: flex;
@@ -60,11 +55,6 @@ body {
 .product-card img {
   width: 100%;
   height: 250px;
-<<<<<<< HEAD
-  object-fit: cover; /* Ensures image fills space proportionally */
-=======
-  object-fit: cover; 
->>>>>>> b213b48 (Update style.css)
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   padding: 0;

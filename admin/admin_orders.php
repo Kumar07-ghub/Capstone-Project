@@ -50,15 +50,24 @@ FROM orders
           <td><?= htmlspecialchars($o['email']) ?></td>
           <td><?= number_format($o['total'],2) ?></td>
           <td>
-            <?php 
-              $badge = match($o['status']) {
-                'Pending'   => 'bg-warning text-dark',
-                'Shipped'   => 'bg-info text-dark',
-                'Delivered' => 'bg-success',
-                'Cancelled' => 'bg-danger',
-                default     => 'bg-secondary',
-              };
-            ?>
+            <?php
+switch ($o['status']) {
+  case 'Pending':
+    $badge = 'bg-warning text-dark';
+    break;
+  case 'Shipped':
+    $badge = 'bg-info text-dark';
+    break;
+  case 'Delivered':
+    $badge = 'bg-success';
+    break;
+  case 'Cancelled':
+    $badge = 'bg-danger';
+    break;
+  default:
+    $badge = 'bg-secondary';
+}
+?>
             <span class="badge <?= $badge ?>">
               <?= htmlspecialchars($o['status']) ?>
             </span>
