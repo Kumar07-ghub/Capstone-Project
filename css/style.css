@@ -1,0 +1,107 @@
+/* General */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* Search Banner */
+.search-banner {
+  background: linear-gradient(to right, #f0f4f7, #dbece3);
+  border-bottom: 1px solid #ccc;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.btn-dark:hover {
+  background-color: #2c3e50;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Card Layout Fix */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.product-card .card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product-card .card-body form {
+  margin-top: auto;
+}
+
+/* 🛠️ Final Fix for Product Image */
+.product-card img {
+  width: 100%;
+  height: 250px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  display: block;
+}
+
+/* Quantity Input */
+.quantity-input {
+  max-width: 80px;
+  padding: 5px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.quantity-input:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
+
+/* Light Green Button */
+.btn-light-green {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  transition: 0.3s ease;
+}
+
+.btn-light-green:hover {
+  background-color: #c3e6cb;
+  color: #0b2e13;
+}
+
+/* Success Message */
+#successMsg {
+  transition: opacity 0.5s ease;
+}
+
+/* Text Consistency */
+.card-title {
+  min-height: 48px;
+}
+
+.card-text.small {
+  min-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
